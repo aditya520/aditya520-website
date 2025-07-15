@@ -6,15 +6,15 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://next-mdx-blog.vercel.app'),
+  metadataBase: new URL('https://aditya520.com'),
   alternates: {
     canonical: '/'
   },
   title: {
-    default: 'John Smith',
-    template: '%s | John Smith'
+    default: 'Aditya Arora',
+    template: '%s | Aditya Arora'
   },
-  description: 'My portfolio, blog, and personal website.'
+  description: 'My personal website.'
 };
 
 export default function RootLayout({
@@ -39,10 +39,9 @@ export default function RootLayout({
 
 function Footer() {
   const links = [
-    { name: '@johnsmith', url: 'https://x.com/johnsmith' },
-    { name: 'youtube', url: 'https://www.youtube.com/@johnsmith' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/johnsmith' },
-    { name: 'github', url: 'https://github.com/johnsmith' }
+    { name: '@aditya520e', url: 'https://x.com/aditya520e' },
+    { name: 'github', url: 'https://github.com/aditya520' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/aditya520/' }
   ];
 
   return (
